@@ -1,8 +1,8 @@
 public class Conifer extends Tree{
     private boolean winterResistant;
 
-    public Conifer(String trunk, String branches, String leaves) {
-        super(trunk, branches, leaves);
+    public Conifer(String trunk, String branches, String leaves, String root, int height, int width) {
+        super(trunk, branches, leaves, root, height, width);
         this.winterResistant = true;
     }
 
